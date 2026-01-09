@@ -26,7 +26,7 @@ Run the following command to install the required libraries:
 ```bash
 pip install opencv-python mediapipe pyautogui numpy pillow screeninfo
 ```
-##🎮 Usage
+### 🎮 Usage
 Clone the repository or download the script.
 
 Run the main file:
