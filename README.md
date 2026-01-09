@@ -1,15 +1,4 @@
-# Repository Information
-
-**Repository Name:** `GestureFlow-AI`
-
-**Description:**
-A real-time touchless computer control interface using Python and MediaPipe. Features precision mouse control, eye-blink clicking, and continuous gesture-based scrolling.
-
----
-
-# File: README.md
-
-# 🖐️ GestureFlow AI - Touchless Control System
+# 🖐️Touchless Control System
 
 **GestureFlow AI** is a lightweight Python application that transforms your webcam into a touchless controller. Navigate your computer using hand gestures and eye blinks without any physical contact.
 
