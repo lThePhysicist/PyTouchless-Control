@@ -1,25 +1,49 @@
-# 🖐️Touchless Control System
+# Repository Information
 
-**GestureFlow AI**, bilgisayarınızı fiziksel temas olmadan, sadece el hareketleri ve göz kırpma mimikleriyle kontrol etmenizi sağlayan Python tabanlı bir yapay zeka projesidir.
+**Repository Name:** `GestureFlow-AI`
 
-Proje, **OpenCV** ve **Google MediaPipe** kütüphanelerini kullanarak yüksek performanslı ve düşük gecikmeli (low-latency) bir deneyim sunar.
+**Description:**
+A real-time touchless computer control interface using Python and MediaPipe. Features precision mouse control, eye-blink clicking, and continuous gesture-based scrolling.
 
-## 🚀 Özellikler
+---
 
-* **🖱️ Akıllı Mouse Kontrolü:** İşaret parmağı ile imleci yönetin. Hıza duyarlı ivmelenme (acceleration) ve titreme önleyici (stabilization) algoritmalar içerir.
-* **📜 Akışkan Scroll (Kaydırma):**
-    * ✊ **Yumruk:** Sayfayı yukarı kaydırır.
-    * ✋ **Açık El:** Sayfayı aşağı kaydırır.
-* **👀 Göz ile Tıklama:** Gözlerinizi bilinçli olarak kırparak tıklama veya çift tıklama yapın.
-* **🤏 Pinch (Kıstırma) Modu:** Baş ve işaret parmağınızı birleştirerek tıklama veya "Sürükle-Bırak" (Drag & Drop) işlemi yapın.
-* **⚡ Optimize Performans:** 60 FPS akıcılığında çalışır.
+# File: README.md
 
-## 🛠️ Kurulum
+# 🖐️ GestureFlow AI - Touchless Control System
 
-Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin.
+**GestureFlow AI** is a lightweight Python application that transforms your webcam into a touchless controller. Navigate your computer using hand gestures and eye blinks without any physical contact.
 
-### Gereksinimler
-Python 3.7 veya üzeri gereklidir.
+Powered by **OpenCV** and **Google MediaPipe**, it provides a fluid, low-latency experience optimized for desktop use.
+
+## 🚀 Features
+
+* **🖱️ Precision Mouse:** Control the cursor with your index finger. Includes dynamic smoothing and acceleration for natural movement.
+* **📜 Continuous Scrolling:**
+    * ✊ **Closed Fist:** Continuous Scroll **UP**.
+    * ✋ **Open Hand:** Continuous Scroll **DOWN**.
+* **👀 Eye Click:** Blink your eyes deliberately to trigger a left click or double click.
+* **🤏 Pinch Interaction:** Touch your thumb to your index finger to Click, Hold, or Drag & Drop.
+* **⚡ Optimized Performance:** Runs smoothly at 60 FPS on standard CPUs.
+
+## 🛠️ Installation
+
+### Prerequisites
+* Python 3.7 or higher
+* A webcam
+
+### Install Dependencies
+Run the following command to install the required libraries:
 
 ```bash
-pip install opencv-python mediapipe pyautogui face-recognition numpy pillow screeninfo
+pip install opencv-python mediapipe pyautogui numpy pillow screeninfo
+```
+##🎮 Usage
+Clone the repository or download the script.
+
+Run the main file:
+
+```
+python main.py
+```
+Calibration (Optional): Click the "CALIBRATE EYES" button and look at the camera for 3 seconds to adjust blink sensitivity to your lighting conditions.
+ 
